@@ -21,7 +21,7 @@ namespace SavoryFavorite.Repository.Sqlite
 
         public TheCategoryEntity GetById(int id)
         {
-            string sql = "select category_id as CategoryId, category_id as CateoryName from category where Id = ?";
+            string sql = "select category_id as CategoryId, category_name as CategoryName from category where Id = ?";
 
             using (var sqliteConn = connectionProvider.GetConnection())
             {
@@ -31,7 +31,7 @@ namespace SavoryFavorite.Repository.Sqlite
 
         public List<TheCategoryEntity> GetEntityList()
         {
-            string sql = "select category_id as CategoryId, category_id as CateoryName from category";
+            string sql = "select category_id as CategoryId, category_name as CategoryName from category";
 
             using (var sqliteConn = connectionProvider.GetConnection())
             {

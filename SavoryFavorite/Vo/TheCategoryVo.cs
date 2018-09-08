@@ -11,8 +11,8 @@ namespace SavoryFavorite.Vo
         [JsonProperty("categoryId")]
         public int CategoryId { get; set; }
 
-        [JsonProperty("cateoryName")]
-        public string CateoryName { get; set; }
+        [JsonProperty("categoryName")]
+        public string CategoryName { get; set; }
 
         [JsonProperty("selected")]
         public bool Selected { get; set; }

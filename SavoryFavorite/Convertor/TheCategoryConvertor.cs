@@ -15,7 +15,7 @@ namespace SavoryFavorite.Convertor
             TheCategoryVo vo = new TheCategoryVo();
 
             vo.CategoryId = entity.CategoryId;
-            vo.CateoryName = entity.CateoryName;
+            vo.CategoryName = entity.CategoryName;
 
             return vo;
         }

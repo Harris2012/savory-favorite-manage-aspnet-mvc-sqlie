@@ -9,6 +9,6 @@ namespace SavoryFavorite.Repository.Entity
     {
         public int CategoryId { get; set; }
 
-        public string CateoryName { get; set; }
+        public string CategoryName { get; set; }
     }
 }

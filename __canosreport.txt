@@ -234,7 +234,7 @@
       "ProjectName": "SavoryFavorite",
       "MetadataName": "TheCategory",
       "MetaKey": "CategoryId",
-      "MetaText": "CateoryName",
+      "MetaText": "CategoryName",
       "Description": "网站分类元数据",
       "SubjectName": "Category",
       "Id": 6,
