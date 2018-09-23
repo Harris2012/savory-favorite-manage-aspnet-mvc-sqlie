@@ -1,27 +1,30 @@
 ====================summary====================
 {
   "Project": {
-    "Name": "SavoryFavorite",
+    "Name": "SavoryFavoriteManage",
     "Title": "网站收藏夹管理后台",
     "DBName": "SavoryFavorite",
-    "Description": "网站收藏夹管理后台",
+    "Description": "【生产】网站收藏夹管理后台",
     "JavaRootPackage": "cn.savory.app.favorite",
     "JavaGroupId": "cn.savory.app",
     "JavaArtifactId": "favorite-management",
+    "ProjectGuid": "fbb624ae-c649-4f3b-9d81-97283464acea",
+    "SolutionGuid": "30447925-af00-4d3e-88c7-d702e79df414",
     "Id": 10,
     "DataStatus": 1,
     "CreateTime": "0001-01-01T00:00:00",
     "LastUpdateTime": "0001-01-01T00:00:00"
   },
   "Profile": {
-    "ProjectName": "SavoryFavorite",
-    "ProfileName": "UsingAspnetMvcSqlite",
-    "OutputFolder": "G:\\savory-app\\savory-favorite-manage-aspnet-mvc-sqlie",
+    "ProjectName": "SavoryFavoriteManage",
+    "ProfileName": "savory-favorite-manage-aspnet-mvc-sqlie",
+    "OutputFolder": "D:\\TheGitlabWorkspace\\savory-app\\savory-favorite-manage-aspnet-mvc-sqlie",
     "RepositoryType": "Sqlite",
     "Description": "使用 asp.net mvc模式生成，用sqlite数据库",
     "TargetProjectType": "CSharpAspnetMvc",
     "ServerName": "SavoryFavoriteSqlite",
     "FrontEndType": "Default",
+    "ExcludeLibrary": true,
     "Id": 20,
     "DataStatus": 1,
     "CreateTime": "0001-01-01T00:00:00",
@@ -29,7 +32,7 @@
   },
   "SubjectList": [
     {
-      "ProjectName": "SavoryFavorite",
+      "ProjectName": "SavoryFavoriteManage",
       "SubjectName": "Favorite",
       "DisplayName": "网站",
       "TableName": "favorite",
@@ -40,7 +43,7 @@
       "LastUpdateTime": "0001-01-01T00:00:00"
     },
     {
-      "ProjectName": "SavoryFavorite",
+      "ProjectName": "SavoryFavoriteManage",
       "SubjectName": "Category",
       "DisplayName": "网站分类",
       "TableName": "category",
@@ -53,51 +56,7 @@
   ],
   "PropertyList": [
     {
-      "ProjectName": "SavoryFavorite",
-      "SubjectName": "Favorite",
-      "PropertyName": "Id",
-      "DisplayName": "编号",
-      "ProgramType": "INT",
-      "FieldName": "id",
-      "PropertyFrom": "Basic",
-      "IsMultiMeta": false,
-      "MetadataName": null,
-      "Description": "编号",
-      "Position": 0,
-      "CreateRequired": false,
-      "UpdateRequired": false,
-      "Pattern": null,
-      "Inputable": false,
-      "Updatable": false,
-      "Id": 95,
-      "DataStatus": 1,
-      "CreateTime": "0001-01-01T00:00:00",
-      "LastUpdateTime": "0001-01-01T00:00:00"
-    },
-    {
-      "ProjectName": "SavoryFavorite",
-      "SubjectName": "Category",
-      "PropertyName": "Id",
-      "DisplayName": "编号",
-      "ProgramType": "INT",
-      "FieldName": "id",
-      "PropertyFrom": "Basic",
-      "IsMultiMeta": false,
-      "MetadataName": null,
-      "Description": "编号",
-      "Position": 0,
-      "CreateRequired": false,
-      "UpdateRequired": false,
-      "Pattern": null,
-      "Inputable": false,
-      "Updatable": false,
-      "Id": 96,
-      "DataStatus": 1,
-      "CreateTime": "0001-01-01T00:00:00",
-      "LastUpdateTime": "0001-01-01T00:00:00"
-    },
-    {
-      "ProjectName": "SavoryFavorite",
+      "ProjectName": "SavoryFavoriteManage",
       "SubjectName": "Category",
       "PropertyName": "CategoryId",
       "DisplayName": "分类编号",
@@ -107,7 +66,7 @@
       "IsMultiMeta": false,
       "MetadataName": "0",
       "Description": "分类编号",
-      "Position": 1,
+      "Position": 0,
       "CreateRequired": true,
       "UpdateRequired": true,
       "Pattern": null,
@@ -119,7 +78,7 @@
       "LastUpdateTime": "0001-01-01T00:00:00"
     },
     {
-      "ProjectName": "SavoryFavorite",
+      "ProjectName": "SavoryFavoriteManage",
       "SubjectName": "Favorite",
       "PropertyName": "Host",
       "DisplayName": "网址",
@@ -129,7 +88,7 @@
       "IsMultiMeta": false,
       "MetadataName": "0",
       "Description": "网址",
-      "Position": 1,
+      "Position": 0,
       "CreateRequired": true,
       "UpdateRequired": true,
       "Pattern": null,
@@ -141,7 +100,7 @@
       "LastUpdateTime": "0001-01-01T00:00:00"
     },
     {
-      "ProjectName": "SavoryFavorite",
+      "ProjectName": "SavoryFavoriteManage",
       "SubjectName": "Category",
       "PropertyName": "CategoryName",
       "DisplayName": "分类名称",
@@ -151,7 +110,7 @@
       "IsMultiMeta": false,
       "MetadataName": "0",
       "Description": "分类名称",
-      "Position": 2,
+      "Position": 1,
       "CreateRequired": true,
       "UpdateRequired": true,
       "Pattern": null,
@@ -163,7 +122,7 @@
       "LastUpdateTime": "0001-01-01T00:00:00"
     },
     {
-      "ProjectName": "SavoryFavorite",
+      "ProjectName": "SavoryFavoriteManage",
       "SubjectName": "Favorite",
       "PropertyName": "Title",
       "DisplayName": "网站标题",
@@ -173,7 +132,7 @@
       "IsMultiMeta": false,
       "MetadataName": "0",
       "Description": "网站标题",
-      "Position": 2,
+      "Position": 1,
       "CreateRequired": true,
       "UpdateRequired": true,
       "Pattern": null,
@@ -185,7 +144,7 @@
       "LastUpdateTime": "0001-01-01T00:00:00"
     },
     {
-      "ProjectName": "SavoryFavorite",
+      "ProjectName": "SavoryFavoriteManage",
       "SubjectName": "Category",
       "PropertyName": "Description",
       "DisplayName": "描述信息",
@@ -195,7 +154,7 @@
       "IsMultiMeta": false,
       "MetadataName": "0",
       "Description": "描述信息",
-      "Position": 3,
+      "Position": 2,
       "CreateRequired": true,
       "UpdateRequired": true,
       "Pattern": null,
@@ -207,7 +166,7 @@
       "LastUpdateTime": "0001-01-01T00:00:00"
     },
     {
-      "ProjectName": "SavoryFavorite",
+      "ProjectName": "SavoryFavoriteManage",
       "SubjectName": "Favorite",
       "PropertyName": "CategoryId",
       "DisplayName": "网站分类",
@@ -217,7 +176,7 @@
       "IsMultiMeta": false,
       "MetadataName": "TheCategory",
       "Description": "网站分类",
-      "Position": 3,
+      "Position": 2,
       "CreateRequired": true,
       "UpdateRequired": true,
       "Pattern": null,
@@ -231,7 +190,7 @@
   ],
   "MetaList": [
     {
-      "ProjectName": "SavoryFavorite",
+      "ProjectName": "SavoryFavoriteManage",
       "MetadataName": "TheCategory",
       "MetaKey": "CategoryId",
       "MetaText": "CategoryName",

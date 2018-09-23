@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SavoryFavoriteManage", "SavoryFavoriteManage\SavoryFavoriteManage.csproj", "{FBB624AE-C649-4F3B-9D81-97283464ACEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBB624AE-C649-4F3B-9D81-97283464ACEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB624AE-C649-4F3B-9D81-97283464ACEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB624AE-C649-4F3B-9D81-97283464ACEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB624AE-C649-4F3B-9D81-97283464ACEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30447925-AF00-4D3E-88C7-D702E79DF414}
+	EndGlobalSection
+EndGlobal
