@@ -1,4 +1,4 @@
-function CategoryItemController($scope, $state, $stateParams, SavoryFavoriteManageService) {
+﻿function CategoryItemController($scope, $state, $stateParams, SavoryFavoriteManageService) {
 
     $scope.id = $stateParams.id;
 

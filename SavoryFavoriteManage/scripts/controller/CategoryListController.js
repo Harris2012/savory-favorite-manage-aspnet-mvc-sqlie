@@ -1,4 +1,4 @@
-function CategoryListController($scope, $state, $stateParams, SavoryFavoriteManageService) {
+﻿function CategoryListController($scope, $state, $stateParams, SavoryFavoriteManageService) {
 
     function category_items_callback(response) {
 

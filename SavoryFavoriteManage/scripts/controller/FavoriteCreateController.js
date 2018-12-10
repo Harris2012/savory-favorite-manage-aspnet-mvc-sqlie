@@ -1,4 +1,4 @@
-function FavoriteCreateController($scope, $state, $stateParams, SavoryFavoriteManageService) {
+﻿function FavoriteCreateController($scope, $state, $stateParams, SavoryFavoriteManageService) {
 
     function favorite_empty_callback(response) {
 

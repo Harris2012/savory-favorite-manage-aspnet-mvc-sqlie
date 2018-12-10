@@ -1,4 +1,4 @@
-function FavoriteListController($scope, $state, $stateParams, SavoryFavoriteManageService) {
+﻿function FavoriteListController($scope, $state, $stateParams, SavoryFavoriteManageService) {
 
     function favorite_items_callback(response) {
 

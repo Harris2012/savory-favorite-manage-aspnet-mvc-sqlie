@@ -1,4 +1,4 @@
-//新建数据库
+﻿//新建数据库
 function CategoryUpdateController($scope, $state, $stateParams, SavoryFavoriteManageService) {
 
     $scope.id = $stateParams.id;

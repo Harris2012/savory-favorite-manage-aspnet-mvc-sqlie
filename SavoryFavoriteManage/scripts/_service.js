@@ -1,4 +1,4 @@
-function SavoryFavoriteManageService($resource, $q) {
+﻿function SavoryFavoriteManageService($resource, $q) {
 
     var resource = $resource('api/search-support', {}, {
 

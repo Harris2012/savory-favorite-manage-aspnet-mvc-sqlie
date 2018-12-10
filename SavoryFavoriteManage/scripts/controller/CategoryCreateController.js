@@ -1,4 +1,4 @@
-function CategoryCreateController($scope, $state, $stateParams, SavoryFavoriteManageService) {
+﻿function CategoryCreateController($scope, $state, $stateParams, SavoryFavoriteManageService) {
 
     function category_empty_callback(response) {
 

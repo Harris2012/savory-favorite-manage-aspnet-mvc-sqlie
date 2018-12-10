@@ -1,4 +1,4 @@
-function FavoriteItemController($scope, $state, $stateParams, SavoryFavoriteManageService) {
+﻿function FavoriteItemController($scope, $state, $stateParams, SavoryFavoriteManageService) {
 
     $scope.id = $stateParams.id;
 
