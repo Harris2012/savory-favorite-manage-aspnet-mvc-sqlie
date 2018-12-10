@@ -1,4 +1,4 @@
-using SavoryFavoriteManage.Controllers.Request;
+﻿using SavoryFavoriteManage.Controllers.Request;
 using SavoryFavoriteManage.Repository.Entity;
 using SavoryFavoriteManage.Vo;
 using System;
@@ -19,7 +19,7 @@ namespace SavoryFavoriteManage.Convertor
         /// <summary>
         /// request 转换为 entity
         /// </summary>
-        CategoryEntity toEntity(CategoryUpdateRequest request);
+        CategoryEntity toEntity(CategoryUpdateRequest request, CategoryEntity oldEntity);
 
         /// <summary>
         /// 获取空 vo

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using SavoryFavoriteManage.Controllers.Request;
 using SavoryFavoriteManage.Repository.Entity;
 using SavoryFavoriteManage.Vo;
+using SavoryFavoriteManage.Utility;
 
 namespace SavoryFavoriteManage.Convertor
 {
@@ -23,7 +24,7 @@ namespace SavoryFavoriteManage.Convertor
             return entity;
         }
 
-        public CategoryEntity toEntity(CategoryUpdateRequest request)
+        public CategoryEntity toEntity(CategoryUpdateRequest request, CategoryEntity oldEntity)
         {
             CategoryEntity entity = new CategoryEntity();
 

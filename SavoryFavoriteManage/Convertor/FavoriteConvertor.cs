@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,6 +7,7 @@ using SavoryFavoriteManage.Meta;
 using SavoryFavoriteManage.Controllers.Request;
 using SavoryFavoriteManage.Repository.Entity;
 using SavoryFavoriteManage.Vo;
+using SavoryFavoriteManage.Utility;
 
 namespace SavoryFavoriteManage.Convertor
 {
@@ -36,7 +37,7 @@ namespace SavoryFavoriteManage.Convertor
             return entity;
         }
 
-        public FavoriteEntity toEntity(FavoriteUpdateRequest request)
+        public FavoriteEntity toEntity(FavoriteUpdateRequest request, FavoriteEntity oldEntity)
         {
             FavoriteEntity entity = new FavoriteEntity();
 

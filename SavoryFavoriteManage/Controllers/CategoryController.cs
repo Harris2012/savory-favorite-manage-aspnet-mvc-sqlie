@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -163,7 +163,7 @@ namespace SavoryFavoriteManage.Controllers
                 return response;
             }
 
-            categoryRepository.Update(categoryConvertor.toEntity(request));
+            categoryRepository.Update(categoryConvertor.toEntity(request, entity));
 
             theCategoryMeta.Refresh();
 

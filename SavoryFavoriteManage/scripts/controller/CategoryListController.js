@@ -23,7 +23,6 @@ function CategoryListController($scope, $state, $stateParams, SavoryFavoriteMana
         $scope.totalCount = response.totalCount;
     }
 
-    //分页
     $scope.pageChanged = function () {
 
         $scope.items_loaded = false;
@@ -34,7 +33,7 @@ function CategoryListController($scope, $state, $stateParams, SavoryFavoriteMana
         request.pageIndex = $scope.currentPage;
 
         SavoryFavoriteManageService.category_items(request).then(category_items_callback);
-    };
+    }
 
     {
         $scope.maxSize = 10;

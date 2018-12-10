@@ -23,7 +23,6 @@ function FavoriteListController($scope, $state, $stateParams, SavoryFavoriteMana
         $scope.totalCount = response.totalCount;
     }
 
-    //分页
     $scope.pageChanged = function () {
 
         $scope.items_loaded = false;
@@ -34,7 +33,7 @@ function FavoriteListController($scope, $state, $stateParams, SavoryFavoriteMana
         request.pageIndex = $scope.currentPage;
 
         SavoryFavoriteManageService.favorite_items(request).then(favorite_items_callback);
-    };
+    }
 
     {
         $scope.maxSize = 10;
